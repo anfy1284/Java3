@@ -65,7 +65,7 @@ public class MFU {
     }
 
     private void scanSub(Client client) {
-        synchronized (printer) {
+        synchronized (scanner) {
             System.out.println(client + " starts scan");
             try {
                 Thread.sleep(1000);
